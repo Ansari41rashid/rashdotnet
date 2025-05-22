@@ -18,7 +18,7 @@ steps:
 - task: UseDotNet@2
   inputs:
     packageType: 'sdk'
-    version: '8.0.x'  # or 6.0.x, 7.0.x depending on your .NET version
+    version: '8.0.13'  # or 6.0.x, 7.0.x depending on your .NET version
     installationPath: $(Agent.ToolsDirectory)/dotnet
 
 - task: DotNetCoreCLI@2
